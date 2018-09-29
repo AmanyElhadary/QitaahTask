@@ -8,8 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		043E6C28215EFAA8008017CA /* DetailsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E6C27215EFAA8008017CA /* DetailsObject.swift */; };
+		043E6C2B215F0911008017CA /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E6C2A215F0911008017CA /* HRToast+UIView.swift */; };
+		043E6C30215F09B9008017CA /* popularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E6C2E215F09B9008017CA /* popularCell.swift */; };
+		043E6C31215F09B9008017CA /* popularCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043E6C2F215F09B9008017CA /* popularCell.xib */; };
+		043E6C33215F0D38008017CA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E6C32215F0D38008017CA /* Extensions.swift */; };
+		043E6C35215F18E3008017CA /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E6C34215F18E3008017CA /* iOSDevCenters+GIF.swift */; };
+		043E6C37215F1920008017CA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043E6C36215F1920008017CA /* LoadingView.swift */; };
+		043E6C39215F1D16008017CA /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043E6C38215F1D16008017CA /* LoadingView.xib */; };
+		043E6C3B215F1DD3008017CA /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 043E6C3A215F1DD3008017CA /* loading.gif */; };
+		047E6CC9215F245B00245AF9 /* loadFail.gif in Resources */ = {isa = PBXBuildFile; fileRef = 047E6CC8215F245A00245AF9 /* loadFail.gif */; };
+		047E6CCB215F24FC00245AF9 /* NoNetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E6CCA215F24FC00245AF9 /* NoNetView.swift */; };
+		047E6CCD215F250500245AF9 /* NoNetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047E6CCC215F250500245AF9 /* NoNetView.xib */; };
 		049730E3215E3EC1005B4C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049730E2215E3EC1005B4C61 /* AppDelegate.swift */; };
-		049730E5215E3EC1005B4C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049730E4215E3EC1005B4C61 /* ViewController.swift */; };
+		049730E5215E3EC1005B4C61 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049730E4215E3EC1005B4C61 /* MainVC.swift */; };
 		049730E8215E3EC1005B4C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049730E6215E3EC1005B4C61 /* Main.storyboard */; };
 		049730EA215E3EC1005B4C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049730E9215E3EC1005B4C61 /* Assets.xcassets */; };
 		049730ED215E3EC1005B4C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049730EB215E3EC1005B4C61 /* LaunchScreen.storyboard */; };
@@ -21,9 +32,20 @@
 
 /* Begin PBXFileReference section */
 		043E6C27215EFAA8008017CA /* DetailsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsObject.swift; sourceTree = "<group>"; };
+		043E6C2A215F0911008017CA /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
+		043E6C2E215F09B9008017CA /* popularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularCell.swift; sourceTree = "<group>"; };
+		043E6C2F215F09B9008017CA /* popularCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popularCell.xib; sourceTree = "<group>"; };
+		043E6C32215F0D38008017CA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		043E6C34215F18E3008017CA /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		043E6C36215F1920008017CA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		043E6C38215F1D16008017CA /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		043E6C3A215F1DD3008017CA /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		047E6CC8215F245A00245AF9 /* loadFail.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadFail.gif; sourceTree = "<group>"; };
+		047E6CCA215F24FC00245AF9 /* NoNetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetView.swift; sourceTree = "<group>"; };
+		047E6CCC215F250500245AF9 /* NoNetView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoNetView.xib; sourceTree = "<group>"; };
 		049730DF215E3EC1005B4C61 /* QitaahTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QitaahTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049730E2215E3EC1005B4C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		049730E4215E3EC1005B4C61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		049730E4215E3EC1005B4C61 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		049730E7215E3EC1005B4C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		049730E9215E3EC1005B4C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049730EC215E3EC1005B4C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +70,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043E6C29215F0909008017CA /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				043E6C34215F18E3008017CA /* iOSDevCenters+GIF.swift */,
+				043E6C2A215F0911008017CA /* HRToast+UIView.swift */,
+				043E6C32215F0D38008017CA /* Extensions.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+		043E6C2C215F098E008017CA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				049730E6215E3EC1005B4C61 /* Main.storyboard */,
+				043E6C2E215F09B9008017CA /* popularCell.swift */,
+				043E6C2F215F09B9008017CA /* popularCell.xib */,
+				043E6C36215F1920008017CA /* LoadingView.swift */,
+				043E6C38215F1D16008017CA /* LoadingView.xib */,
+				047E6CCA215F24FC00245AF9 /* NoNetView.swift */,
+				047E6CCC215F250500245AF9 /* NoNetView.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		043E6C2D215F0994008017CA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				049730E4215E3EC1005B4C61 /* MainVC.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
 		049730D6215E3EC1005B4C61 = {
 			isa = PBXGroup;
 			children = (
@@ -69,10 +123,13 @@
 		049730E1215E3EC1005B4C61 /* QitaahTask */ = {
 			isa = PBXGroup;
 			children = (
+				047E6CC8215F245A00245AF9 /* loadFail.gif */,
+				043E6C3A215F1DD3008017CA /* loading.gif */,
+				043E6C2D215F0994008017CA /* controller */,
+				043E6C2C215F098E008017CA /* view */,
+				043E6C29215F0909008017CA /* extensions */,
 				049730F4215EEE6C005B4C61 /* Model */,
 				049730E2215E3EC1005B4C61 /* AppDelegate.swift */,
-				049730E4215E3EC1005B4C61 /* ViewController.swift */,
-				049730E6215E3EC1005B4C61 /* Main.storyboard */,
 				049730E9215E3EC1005B4C61 /* Assets.xcassets */,
 				049730EB215E3EC1005B4C61 /* LaunchScreen.storyboard */,
 				049730EE215E3EC1005B4C61 /* Info.plist */,
@@ -172,7 +229,12 @@
 			files = (
 				049730ED215E3EC1005B4C61 /* LaunchScreen.storyboard in Resources */,
 				049730EA215E3EC1005B4C61 /* Assets.xcassets in Resources */,
+				047E6CC9215F245B00245AF9 /* loadFail.gif in Resources */,
 				049730E8215E3EC1005B4C61 /* Main.storyboard in Resources */,
+				043E6C3B215F1DD3008017CA /* loading.gif in Resources */,
+				047E6CCD215F250500245AF9 /* NoNetView.xib in Resources */,
+				043E6C31215F09B9008017CA /* popularCell.xib in Resources */,
+				043E6C39215F1D16008017CA /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,13 +283,17 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-QitaahTask/Pods-QitaahTask-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/HanekeSwift/Haneke.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Haneke.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -242,11 +308,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				049730FC215EEF1A005B4C61 /* LibraryApi.swift in Sources */,
+				043E6C35215F18E3008017CA /* iOSDevCenters+GIF.swift in Sources */,
+				043E6C33215F0D38008017CA /* Extensions.swift in Sources */,
+				043E6C37215F1920008017CA /* LoadingView.swift in Sources */,
 				043E6C28215EFAA8008017CA /* DetailsObject.swift in Sources */,
-				049730E5215E3EC1005B4C61 /* ViewController.swift in Sources */,
+				049730E5215E3EC1005B4C61 /* MainVC.swift in Sources */,
 				049730E3215E3EC1005B4C61 /* AppDelegate.swift in Sources */,
 				049730F6215EEE9A005B4C61 /* Reachability.swift in Sources */,
 				049730FA215EEECF005B4C61 /* popularObject.swift in Sources */,
+				047E6CCB215F24FC00245AF9 /* NoNetView.swift in Sources */,
+				043E6C2B215F0911008017CA /* HRToast+UIView.swift in Sources */,
+				043E6C30215F09B9008017CA /* popularCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

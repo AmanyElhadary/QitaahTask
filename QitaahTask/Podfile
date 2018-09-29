@@ -6,6 +6,9 @@ target 'QitaahTask' do
   use_frameworks!
   pod 'Alamofire'
   pod 'AlamofireObjectMapper'
+  pod 'Toast-Swift'
+  pod 'HanekeSwift', :git => 'https://github.com/Haneke/HanekeSwift.git', :branch => 'feature/swift-3'
+
   # Pods for QitaahTask
 
 end
