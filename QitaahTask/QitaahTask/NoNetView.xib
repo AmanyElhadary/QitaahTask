@@ -10,6 +10,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Arial.ttf">
+            <string>ArialMT</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NoNetView" customModule="QitaahTask" customModuleProvider="target">
             <connections>
@@ -22,20 +27,56 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dnQ-zY-SR5">
-                    <rect key="frame" x="67" y="279.5" width="240" height="128"/>
+                    <rect key="frame" x="67" y="269" width="240" height="128"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="128" id="XdP-7f-CUe"/>
                         <constraint firstAttribute="width" secondItem="dnQ-zY-SR5" secondAttribute="height" multiplier="15:8" id="rhN-br-uXl"/>
                         <constraint firstAttribute="width" constant="240" id="yVl-P5-67g"/>
                     </constraints>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="check your connection" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ain-8L-RTb">
+                    <rect key="frame" x="67" y="405" width="240" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="lgG-5a-IUP"/>
+                        <constraint firstAttribute="height" constant="38" id="vl2-uq-772"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cpf-V3-BPP">
+                    <rect key="frame" x="67" y="456" width="240" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="BSj-Rq-RCv"/>
+                        <constraint firstAttribute="height" constant="30" id="bSD-pm-9bA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                    <state key="normal" title="press to try again ">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="refresh:" destination="-1" eventType="touchUpInside" id="vnL-uj-0bE"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.94500499963760376" green="0.94516319036483765" blue="0.94498413801193237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="dnQ-zY-SR5" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="JXj-Jl-boe"/>
+                <constraint firstItem="ain-8L-RTb" firstAttribute="leading" secondItem="dnQ-zY-SR5" secondAttribute="trailing" constant="-240" id="9LA-ji-hVL"/>
+                <constraint firstItem="ain-8L-RTb" firstAttribute="top" secondItem="dnQ-zY-SR5" secondAttribute="bottom" constant="8" id="H2t-Dc-GRO"/>
+                <constraint firstItem="dnQ-zY-SR5" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" constant="-10.5" id="JXj-Jl-boe"/>
+                <constraint firstItem="Cpf-V3-BPP" firstAttribute="top" secondItem="ain-8L-RTb" secondAttribute="bottom" constant="13" id="NXa-zI-V57"/>
+                <constraint firstItem="Cpf-V3-BPP" firstAttribute="centerX" secondItem="ain-8L-RTb" secondAttribute="centerX" id="WYA-zh-at5"/>
                 <constraint firstItem="dnQ-zY-SR5" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="nSo-i6-PfM"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="47.5" y="158.5"/>
         </view>
     </objects>
 </document>

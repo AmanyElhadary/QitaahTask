@@ -10,6 +10,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="ArialBold.ttf">
+            <string>Arial-BoldMT</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingView" customModule="QitaahTask" customModuleProvider="target">
             <connections>
@@ -22,20 +27,33 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="O72-DX-RJL">
-                    <rect key="frame" x="67" y="279.5" width="240" height="128"/>
+                    <rect key="frame" x="67" y="280" width="236" height="78"/>
                     <constraints>
-                        <constraint firstAttribute="width" secondItem="O72-DX-RJL" secondAttribute="height" multiplier="15:8" id="4KF-HE-oMX"/>
-                        <constraint firstAttribute="height" constant="128" id="Q3h-b5-umE"/>
-                        <constraint firstAttribute="width" constant="240" id="Xqr-L6-A6K"/>
+                        <constraint firstAttribute="width" secondItem="O72-DX-RJL" secondAttribute="height" multiplier="15:8" constant="89.75" id="4KF-HE-oMX"/>
+                        <constraint firstAttribute="height" constant="78" id="Q3h-b5-umE"/>
+                        <constraint firstAttribute="width" constant="236" id="Xqr-L6-A6K"/>
                     </constraints>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading ..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G12-Oj-8rm">
+                    <rect key="frame" x="102" y="366" width="178" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="SSo-vU-O5q"/>
+                        <constraint firstAttribute="width" constant="178" id="dbN-vx-N7w"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="19"/>
+                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="O72-DX-RJL" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="6sc-V2-1Hn"/>
-                <constraint firstItem="O72-DX-RJL" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="AUg-PS-egF"/>
+                <constraint firstItem="G12-Oj-8rm" firstAttribute="centerX" secondItem="O72-DX-RJL" secondAttribute="centerX" constant="6" id="1CA-lo-AXL"/>
+                <constraint firstItem="O72-DX-RJL" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" constant="-2.5" id="6sc-V2-1Hn"/>
+                <constraint firstItem="O72-DX-RJL" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" constant="-24.5" id="AUg-PS-egF"/>
+                <constraint firstItem="G12-Oj-8rm" firstAttribute="top" secondItem="O72-DX-RJL" secondAttribute="bottom" constant="8" id="gba-jp-YlO"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="46.5" y="59.5"/>
         </view>
     </objects>
 </document>

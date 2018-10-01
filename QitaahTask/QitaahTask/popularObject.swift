@@ -13,9 +13,10 @@ import ObjectMapper
 
 class popularObject:Mappable{
     var popularity:Int?
+    var id:Int?
     var name: String?
     var profile_path: String?
-    var known_for: [DetailsObject]?
+    var known_for: [known_for]?
     var section_name: String?
     var newsurl:String?
     var view_count:String?
@@ -29,7 +30,7 @@ class popularObject:Mappable{
         name <- map["name"]
         profile_path <- map["profile_path"]
         known_for <- map["known_for"]
-        
+        id <- map["id"]
 
     }
 

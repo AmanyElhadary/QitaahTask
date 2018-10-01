@@ -30,6 +30,11 @@ class NoNetView: UIView {
         xibSetup()
     }
 
+    @IBAction func refresh(_ sender: Any) {
+        NotificationCenter.default.post(name: Notification.Name("reload"), object: nil)
+        NotificationCenter.default.post(name: Notification.Name("reloadDetails"), object: nil)
+
+    }
     func xibSetup() {
         contentView = loadViewFromNib()
 

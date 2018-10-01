@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  QitaahTask
+//  test
 //
-//  Created by mac on 9/28/18.
+//  Created by mac on 10/1/18.
 //  Copyright © 2018 amany. All rights reserved.
 //
 
@@ -16,9 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        UINavigationBar.appearance().barTintColor = UIColor.red
-        UIBarButtonItem.appearance().tintColor = UIColor.white
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white, NSAttributedStringKey.font: UIFont(name: "Arial", size: 20.0)!]
         return true
     }
 

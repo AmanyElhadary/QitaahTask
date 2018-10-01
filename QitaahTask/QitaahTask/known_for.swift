@@ -11,7 +11,7 @@ import Alamofire
 import AlamofireObjectMapper
 import ObjectMapper
 
-class DetailsObject:Mappable{
+class known_for:Mappable{
     var poster_path: String?
     var overview: String?
     var release_date: String?
